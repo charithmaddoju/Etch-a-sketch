@@ -44,6 +44,8 @@ h1{
 .container{
     display: grid;   
     border : 1px solid black;
+    height: 500px;
+    width: 500px;
 }
 
 button{
@@ -54,4 +56,7 @@ button{
 button:hover{
     transform: scale(1.2);
     background-color: grey;
+}
+button:active{
+    background-color: yellow;
 }

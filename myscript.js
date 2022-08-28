@@ -36,8 +36,8 @@ function makeGrid(e){
         div.addEventListener('mouseover', colorSquare);
         div.classList.add('block');
         // div.style.border = '1px solid black';
-        container.style.gridTemplateColumns = `repeat(${divsize},10px)`;
-        container.style.gridTemplateRows = `repeat(${divsize},10px)`;
+        container.style.gridTemplateColumns = `repeat(${divsize},1fr)`;
+        container.style.gridTemplateRows = `repeat(${divsize},1fr)`;
         container.appendChild(div);
     }
     
