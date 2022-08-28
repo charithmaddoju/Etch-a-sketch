@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora';
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.submit {
+    font-size: 20px;
+    background-color:  white;
+}
+
+.submit:hover{
+    background-color: gray;
+    transform: scale(1.1);
+}
+
+.container{
+    display: grid;   
+    border : 1px solid black;
+}
+
+button{
+    font-size: 20px;
+    background-color: white;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: grey;
+}
